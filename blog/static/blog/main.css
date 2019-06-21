@@ -81,3 +81,80 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+/* Blocks */
+.site-blocks-cover, .site-blocks-cover .row {
+  margin-left: 5rem;
+  height: 480px;
+  width :960px;
+  position: relative
+}
+
+.site-blocks-cover h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .site-blocks-cover h1 {
+    font-size: 50px;
+  }
+}
+
+.site-blocks-cover p {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.site-blocks-cover .intro-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+site-section {
+  padding: 2.5em 0;
+}
+
+@media (min-width: 768px) {
+  .site-section {
+    padding: 0em 4em;
+  }
+}
+
+.site-section.site-section-sm {
+  padding: 4em 0;
+}
+
+.site-section-heading {
+  font-size: 30px;
+  color: #25262a;
+  position: relative;
+}
+
+.bg-text-line {
+  display: inline;
+  background: #000;
+  -webkit-box-shadow: 20px 0 0 #000, -20px 0 0 #000;
+  box-shadow: 20px 0 0 #000, -20px 0 0 #000;
+}
+
+.bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.bg-image.center {
+  background-position: top center;
+}
+
+.bg-image.fixed {
+  background-position: fixed !important;
+}
+
+.bg-image.overlay, .bg-image.overlay-primary, .bg-image.overlay-info, .bg-image.overlay-success, .bg-image.overlay-warning {
+  position: relative;
+}
+

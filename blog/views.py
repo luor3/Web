@@ -16,6 +16,9 @@ def home(request):
     }
     return render(request, 'blog/home.html', context)
 
+def contact(request):
+    return render(request, 'blog/contact.html', {'title':'contact'})
+
 
 class PostListView(ListView):
     model = Post
